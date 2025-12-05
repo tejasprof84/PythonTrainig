@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0b886dcc-55df-45df-b614-080056878ae4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FindyoungestStudent.py</StartupFile>
+    <StartupFile>ClassMethodExample.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,7 @@
   <ItemGroup>
     <Compile Include="ClassExSamples.py" />
     <Compile Include="classInstanceMethod.py" />
+    <Compile Include="ClassMethodExample.py" />
     <Compile Include="FindyoungestStudent.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
