@@ -14,7 +14,7 @@ class StudentWithConstructor:
     def __init__(self, nameparam : str, ageparam : str):  
         self.name = nameparam + " kumar"
         self.age = ageparam
-        print(f"name : {nameparam}, age : {ageparam}")
+        print(f"name : {nameparam}, age : {ageparam}")  ##here o/p is name and age "no kumar" is concatenated because its calling parameter
 
 stu = StudentWithConstructor(input(" Enter the name `"),input(" Enter age "))
-print(f"name : {stu.name}, age : {stu.age}")
+print(f"name : {stu.name}, age : {stu.age}") # here o/p is name + "kumar" and age bcs its taking entire name
