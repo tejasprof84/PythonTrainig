@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>0b886dcc-55df-45df-b614-080056878ae4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>StaticMethodExample.py</StartupFile>
+    <StartupFile>InheritanceMethod.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,7 +25,11 @@
     <Compile Include="2classInstanceMethod.py" />
     <Compile Include="4ClassMethodExample.py" />
     <Compile Include="3FindyoungestStudent.py" />
-    <Compile Include="StaticMethodExample.py" />
+    <Compile Include="5StaticMethodExample.py" />
+    <Compile Include="8AbstarctClass.py" />
+    <Compile Include="6EncapuslationMethod_1.py" />
+    <Compile Include="7EncapuslationMethod_2.py" />
+    <Compile Include="InheritanceMethod.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
