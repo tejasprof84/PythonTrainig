@@ -29,6 +29,8 @@ e1.PrintEmpDetails()
 e2.PrintEmpDetails()
 e3.PrintEmpDetails()
 
+print("---------------------------------------------------\n")
+
 
 #government oredered new min salary = 170
 EmployeeData.SetNewMinSalary(170)
